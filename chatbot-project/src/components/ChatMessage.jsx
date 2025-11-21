@@ -1,6 +1,7 @@
 import RobotProfileImage from '../assets/robot.png';
 import UserProfileImage from '../assets/user.png';
 
+import './ChatMessage.css'
 
 const ChatMessage = ({ message, sender }) => {
     return (

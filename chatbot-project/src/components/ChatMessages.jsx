@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import ChatMessage from './ChatMessage';
 
+import './ChatMessages.css'
+
 const ChatMessages = ({ chatMessages }) => {
     const chatMessagesRef = useRef(null);
 
